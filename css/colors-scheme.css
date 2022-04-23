@@ -1,0 +1,35 @@
+:root {
+    /* NORMAL COLOR MODE */
+    --orange: #D2691E;
+    --dark-grey: #363636;
+    --white: #F5FFFA;
+    
+    /* LIGHT COLOR MODE */
+    --light-orange: #FCCB1A;
+    --light-grey: #FEF7DC;
+    --brown: #B08A03;
+    --dark-brown: #342B09;
+
+    /* FLAMING C MODE (CONAN HERO ALTER-EGO) */
+    --dakr-blue: #3B5998;
+    --light-blue: #00A1F1;
+    --yellow: #FEFE33;
+    --white2: #F7F7F7;
+    --purple: #3A004C;
+
+    /* FAQ QUESTION LIST GRADIENT 1 */
+    --night1: #855988;
+    --night2: #6B4984;
+    --night3: #483475;
+    --night4: #2B2F77;
+    --night5: #141852;
+    --night6: #070B34;
+
+    /* GRADIENT 2 */
+    --day1: #66e9ff;
+    --day2: #33e1ff;
+    --day3: #00daff;
+    --day4: #00aecc;
+    --day5: #008399;
+    --day6: #005766;
+}

@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+    margin: 0;
+}
+
+/* Container class for all pages */
+.container {
+    width: 80%; 
+    margin: auto; 
+    overflow: hidden; /* If anything goes outside the container there won't be any scroll bar */
+}
+
+/* -----------------------------INDEX PAGE----------------------------------- */
+
+
+/* Navigation Menu background color and text color for all pages */
+#mainNav {
+    background-color: var(--orange);
+    color: var(--white);
+    position: sticky;
+    top: 0%;
+}
+
+/* Navigation Menu anchor tags */
+#mainNav a {
+    color: var(--white);
+    padding: .5em 1em;
+    margin: auto;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+}
+
+/* Navigation menu hover color change */
+#mainNav a:hover {
+    background-color: var(--dark-grey);
+    color: var(--orange);
+}
+
+
+/* Picture under Nav Menu (JUST ON HOME PAGE) */
+#jumbo {
+    background-image: url('../images/COCO.jpeg');
+    background-position: center center;
+    min-height: 250px;
+    text-align: right;
+    color: var(--orange);
+    font-size: 20px;
+}
+
+/* All paragraphs and list under sections (JUST ON HOME PAGE) */
+#main {
+    background: var(--white);
+    color: var(--dark-grey);
+    font-size: 20px;
+}
+
+/* ANIMATED Picture in main home page transition */
+#main img {
+    animation-name: coco;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+/* Animation rule */
+@keyframes coco {
+    100% {transform: scale(1.2, 1.5);}
+}
+
+ /* More about Conan area */
+ #more {
+    background: var(--orange);
+    color: var(--white);
+    font-size: 18px;
+}
+
+
+/* -----------------------------FAQ PAGE----------------------------------- */
+
+
+/* FAQ PAGE MAIN SECTION */
+#mainFAQ {
+    background: var(--white);
+    color: var(--dark-grey);
+    font-size: 20px;
+}
+
+/* FAQ  questions list */
+#questionList {
+    color: var(--white);
+    border: 10px solid var(--orange);
+    border-radius: 30px;
+    float: top;
+    padding: 10px 20px;
+    margin: 5%;
+    background-image: linear-gradient(to right top, var(--night1), var(--night2), var(--night3), var(--night4), var(--night5), var(--night6));
+}
+
+
+/* Adding gradient to the FAQ box */
+#questionList img {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* FAQ list anchor (letter color) */
+#questionList a {
+    color: var(--white);
+    text-decoration: none; 
+    font-size: 25px; 
+}
+
+/* FAQ list hover */
+#questionList a:hover {
+    color: var(--orange);
+}
+
+/* FAQ answers */
+#answers {
+   background: var(--white); 
+}
+
+/* FAQ answers top anchor */
+#answers a {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+/* -----------------------------GALLERY PAGE----------------------------------- */
+
+
+/* Gallery page */
+#mainImg {
+    background: var(--white);
+    color: var(--dark-grey);
+    font-size: 1em;
+}
+
+img {
+    border: 5px solid var(--orange);
+    border-radius: 30px;
+    background: var(--dark-grey);
+    color: var(--orange);
+    padding: 10px;
+    margin: 50px;
+    float: left;
+    
+}
+
+figure {
+    color: var(--orange);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Transition for Gallery Page images */
+figure img{
+    transition-duration: 200ms;
+    transition-property: transform;
+
+}
+
+/* Gallery images transitions */
+figure img:hover {
+    transform: rotate(6deg);
+}
+
+/* -----------------------------CONTACT PAGE----------------------------------- */
+
+/* Table */
+.content-table {
+    border-collapse: collapse;
+    margin: 25px;
+    font-size: 0.9em;
+    min-width: 2em;
+}
+
+.content-table thead tr {
+    background: var(--orange);
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table td {
+    padding: .5em .5em;
+}
+
+.content-table tbody tr { 
+        border-bottom: .1em solid var(--dark-grey);
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background: var(--orange);
+}
+
+
+
+/* -----------------------------FOOTER SECTION----------------------------------- */
+
+
+/* Footer */
+#mainFooter {
+    background: var(--dark-grey);
+    color: var(--white);
+    text-align: center;
+    font-size: 20px;
+}
+
+#mainFooter a {
+    color: var(--white);
+    padding: 10px 20px;
+    margin: auto;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#mainFooter a:link {
+    color: var(--white);
+}
+
+#mainFooter a:hover {
+    color: var(--orange);
+}
+
+/* Image Social Sprites */
+#YouTube {
+    display: inline-block;
+    width: 52px;
+    height: 49px;
+    background-position: 0 -49px;
+    background-image: url("../images/social-icons.png");
+}
+
+#Instagram {
+    display: inline-block;
+    width: 52px;
+    height: 49px;
+    background-position: 0 0;
+    background-image: url("../images/social-icons.png");
+}
+
+#Twitter {
+    display: inline-block;
+    width: 52px;
+    height: 49px;
+    background-position: -104px 0;
+    background-image: url("../images/social-icons.png");
+}
+
+#Facebook {
+    display: inline-block;
+    width: 52px;
+    height: 49px;
+    background-position: -52px 0;
+    background-image: url("../images/social-icons.png");
+}
+
+/* ------------------------RESPONSIVE DESIGN----------------------------------- */
+
+/* PHONE */
+@media screen and (max-width: 40em) {
+    /* ALL PAGES */
+    #mainHeader {
+        display: -webkit-flex;
+        flex-direction: row;
+    }
+
+    #mainHeader h1 {
+        font-size: 2em;
+    }
+
+    #mainNav {
+        font-size: .5em;
+        background: var(--dark-grey); 
+    }
+
+    #mainNav a:hover {
+        color: var(--orange);
+    }
+
+    /* ----FAQ PAGE---- */
+
+    #questionList a {
+        font-size: .9em;
+    }
+
+    #answers {
+        font-size: .9em;
+    }
+
+    /* ----GALLERY PAGE---- */
+
+    #mainImg {
+        font-size: 1em;
+    }
+
+    /* ----CONTACT PAGE---- */
+
+    form {
+        display: -webkit-flex;
+        flex-direction: row;
+        font-size: 1em;
+    }
+
+    /* ----FOOTER SEC---- */
+
+    #mainFooter {
+        font-size: 1em;
+    }
+
+    #mainFooter a {
+        font-size: 1em;
+    }
+    
+}
+
+/* TABLET */
+@media screen and (max-width: 65em) {
+    #mainHeader {
+        font-size: 1em;
+    }
+
+    #mainNav {
+        background: var(--dark-grey);
+    }
+    #mainNav a{
+        font-size: 1.2em;
+    }
+
+    #jumbo {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
