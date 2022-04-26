@@ -1,8 +1,8 @@
 :root {
     /* NORMAL COLOR MODE */
-    --orange: #D2691E;
-    --dark-grey: #363636;
-    --white: #F5FFFA;
+    --color1: #D2691E;
+    --color2: #363636;
+    --color3: #F5FFFA;
     
     /* LIGHT COLOR MODE */
     --light-orange: #FCCB1A;
@@ -11,7 +11,7 @@
     --dark-brown: #342B09;
 
     /* FLAMING C MODE (CONAN HERO ALTER-EGO) */
-    --dakr-blue: #3B5998;
+    --dark-blue: #3B5998;
     --light-blue: #00A1F1;
     --yellow: #FEFE33;
     --white2: #F7F7F7;

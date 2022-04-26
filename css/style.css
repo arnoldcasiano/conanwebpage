@@ -21,15 +21,15 @@ body {
 
 /* Navigation Menu background color and text color for all pages */
 #mainNav {
-    background-color: var(--orange);
-    color: var(--white);
+    background-color: var(--color1);
+    color: var(--color3);
     position: sticky;
     top: 0%;
 }
 
 /* Navigation Menu anchor tags */
 #mainNav a {
-    color: var(--white);
+    color: var(--color3);
     padding: .5em 1em;
     margin: auto;
     text-decoration: none;
@@ -40,8 +40,8 @@ body {
 
 /* Navigation menu hover color change */
 #mainNav a:hover {
-    background-color: var(--dark-grey);
-    color: var(--orange);
+    background-color: var(--color2);
+    color: var(--color1);
 }
 
 
@@ -51,14 +51,14 @@ body {
     background-position: center center;
     min-height: 250px;
     text-align: right;
-    color: var(--orange);
+    color: var(--color1);
     font-size: 20px;
 }
 
 /* All paragraphs and list under sections (JUST ON HOME PAGE) */
 #main {
-    background: var(--white);
-    color: var(--dark-grey);
+    background: var(--color3);
+    color: var(--color2);
     font-size: 20px;
 }
 
@@ -76,8 +76,8 @@ body {
 
  /* More about Conan area */
  #more {
-    background: var(--orange);
-    color: var(--white);
+    background: var(--color1);
+    color: var(--color3);
     font-size: 18px;
 }
 
@@ -87,15 +87,15 @@ body {
 
 /* FAQ PAGE MAIN SECTION */
 #mainFAQ {
-    background: var(--white);
-    color: var(--dark-grey);
+    background: var(--color3);
+    color: var(--color2);
     font-size: 20px;
 }
 
 /* FAQ  questions list */
 #questionList {
-    color: var(--white);
-    border: 10px solid var(--orange);
+    color: var(--color3);
+    border: 10px solid var(--color1);
     border-radius: 30px;
     float: top;
     padding: 10px 20px;
@@ -115,24 +115,24 @@ ul {
 
 /* FAQ list anchor (letter color) */
 #questionList a {
-    color: var(--white);
+    color: var(--color3);
     text-decoration: none; 
     font-size: 25px; 
 }
 
 /* FAQ list hover */
 #questionList a:hover {
-    color: var(--orange);
+    color: var(--color1);
 }
 
 /* FAQ answers */
 #answers {
-   background: var(--white); 
+   background: var(--color3); 
 }
 
 /* FAQ answers top anchor */
 #answers a {
-    color: var(--orange);
+    color: var(--color1);
     text-decoration: none;
 }
 
@@ -141,16 +141,16 @@ ul {
 
 /* Gallery page */
 #mainImg {
-    background: var(--white);
-    color: var(--dark-grey);
+    background: var(--color3);
+    color: var(--color2);
     font-size: 1em;
 }
 
 img {
-    border: 5px solid var(--orange);
+    border: 5px solid var(--color1);
     border-radius: 30px;
-    background: var(--dark-grey);
-    color: var(--orange);
+    background: var(--color2);
+    color: var(--color1);
     padding: 10px;
     margin: 50px;
     float: left;
@@ -158,7 +158,7 @@ img {
 }
 
 figure {
-    color: var(--orange);
+    color: var(--color1);
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -186,7 +186,7 @@ figure img:hover {
 }
 
 .content-table thead tr {
-    background: var(--orange);
+    background: var(--color1);
     text-align: left;
     font-weight: bold;
 }
@@ -196,11 +196,11 @@ figure img:hover {
 }
 
 .content-table tbody tr { 
-        border-bottom: .1em solid var(--dark-grey);
+        border-bottom: .1em solid var(--color2);
 }
 
 .content-table tbody tr:nth-of-type(even) {
-    background: var(--orange);
+    background: var(--color1);
 }
 
 
@@ -210,14 +210,14 @@ figure img:hover {
 
 /* Footer */
 #mainFooter {
-    background: var(--dark-grey);
-    color: var(--white);
+    background: var(--color2);
+    color: var(--color3);
     text-align: center;
     font-size: 20px;
 }
 
 #mainFooter a {
-    color: var(--white);
+    color: var(--color3);
     padding: 10px 20px;
     margin: auto;
     text-decoration: none;
@@ -225,11 +225,11 @@ figure img:hover {
 }
 
 #mainFooter a:link {
-    color: var(--white);
+    color: var(--color3);
 }
 
 #mainFooter a:hover {
-    color: var(--orange);
+    color: var(--color1);
 }
 
 /* Image Social Sprites */
@@ -281,11 +281,11 @@ figure img:hover {
 
     #mainNav {
         font-size: .5em;
-        background: var(--dark-grey); 
+        background: var(--color2); 
     }
 
     #mainNav a:hover {
-        color: var(--orange);
+        color: var(--color1);
     }
 
     /* ----FAQ PAGE---- */
@@ -331,7 +331,7 @@ figure img:hover {
     }
 
     #mainNav {
-        background: var(--dark-grey);
+        background: var(--color2);
     }
     #mainNav a{
         font-size: 1.2em;
