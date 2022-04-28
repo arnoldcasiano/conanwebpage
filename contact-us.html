@@ -23,7 +23,8 @@
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel=stylesheet href="./css/style.css">
-    <link rel=stylesheet href="./css/color-theme1.css">
+    <link rel=stylesheet href="./css/color-theme1.css" id="color">
+    <script src="./js/script.js" defer></script>
     
     <title>Contact | Conando Club</title>
 
@@ -40,6 +41,17 @@
     <header id="mainHeader">
       <div class="container">
         <h1>Want To Join Our Club?</h1>
+      </div>
+
+      <div id="buttons">
+        <button onClick="changeStyle('./css/color-theme1.css');"
+        title="Click to apply new theme">Original</button>
+        <button onClick="changeStyle('./css/color-theme2.css');"
+        title="Click to apply new theme">Light</button>
+        <button onClick="changeStyle('./css/color-theme3.css');"
+        title="Click to apply new theme">Flaming C</button>
+        <button onClick="changeStyle('./css/color-theme4.css');"
+        title="Click to apply new theme">Coco Red</button>
       </div>
     </header>
 

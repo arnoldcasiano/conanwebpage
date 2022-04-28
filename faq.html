@@ -22,7 +22,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/manifest.json">
     <link rel=stylesheet href="./css/style.css">
-    <link rel=stylesheet href="./css/color-theme1.css">
+    <link rel=stylesheet href="./css/color-theme1.css" id="color">
+    <script src="./js/script.js" defer></script>
 
      <title>FAQ | Conando Club</title> 
 
@@ -41,6 +42,17 @@
      <div class="container">
       <h1>Conando's FAQ About Conan</h1>
      </div>
+
+     <div id="buttons">
+      <button onClick="changeStyle('./css/color-theme1.css');"
+      title="Click to apply new theme">Original</button>
+      <button onClick="changeStyle('./css/color-theme2.css');"
+      title="Click to apply new theme">Light</button>
+      <button onClick="changeStyle('./css/color-theme3.css');"
+      title="Click to apply new theme">Flaming C</button>
+      <button onClick="changeStyle('./css/color-theme4.css');"
+      title="Click to apply new theme">Coco Red</button>
+    </div>
     </header>
 
     <nav id="mainNav">
