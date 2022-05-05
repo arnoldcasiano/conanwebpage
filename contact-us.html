@@ -23,6 +23,8 @@
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel=stylesheet href="./css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel=stylesheet href="./css/color-theme1.css" id="color">
     <script src="./js/script.js" defer></script>
     
@@ -44,13 +46,13 @@
       </div>
 
       <div id="buttons">
-        <button onClick="changeStyle('./css/color-theme1.css');"
+        <button class="w3-button w3-deep-orange w3-border w3-border-dark-gray w3-round-large" onClick="changeStyle('./css/color-theme1.css');"
         title="Click to apply new theme">Original</button>
-        <button onClick="changeStyle('./css/color-theme2.css');"
+        <button class="w3-button w3-yellow w3-border w3-border-dark-gray w3-round-large" onClick="changeStyle('./css/color-theme2.css');"
         title="Click to apply new theme">Light</button>
-        <button onClick="changeStyle('./css/color-theme3.css');"
+        <button class="w3-button w3-deep-purple w3-border w3-border-dark-gray w3-round-large" onClick="changeStyle('./css/color-theme3.css');"
         title="Click to apply new theme">Flaming C</button>
-        <button onClick="changeStyle('./css/color-theme4.css');"
+        <button class="w3-button w3-red w3-border w3-border-dark-gray w3-round-large" onClick="changeStyle('./css/color-theme4.css');"
         title="Click to apply new theme">Coco Red</button>
       </div>
     </header>
@@ -78,33 +80,33 @@
         </thead>
         <tbody>
           <tr>
-            <td headers="1">Podcast Access</td>
+            <td headers="1">Podcast Access L1</td>
             <td headers="2">Conan O'Brien Needs A Friend Podcast, May I Elaborate Podcast, Parks And Recollection Podcast, Scam Goddess Podcast, Why Won't You Date Me Podcast, and Good Game Nice Try Podcast, Pen Pals Podcast, Literally! With Rob Lowe Podcast, Inside Conan Podcast and more!
             </td>
             <td headers="3">Using club member code before streaming on the streaming platform of your choice. </td>
          </tr>
 
           <tr>
-            <td headers="1">Monthly Merch</td>
+            <td headers="1">Monthly Merch L2</td>
             <td headers="2">Randomly selected merch including shirts, coffee mugs, stickers, bags, sweaters, and books sent directly to your home every month! </td>
             <td headers="3">Subscribing to the Conando Club after joining, and confirming email and address that matches Club Member Info.</td>
 
           </tr>
 
           <tr>
-            <td headers="1">Daily Club Updates</td>
+            <td headers="1">Daily Club Updates L3</td>
             <td headers="2">Updates to behind the scenes of everything Conan including the Team Coco podcast, Conan on TBS and many more!</td>
             <td headers="3">Subscribing to the Conando Club after joining.</td>
           </tr>
 
           <tr>
-            <td headers="1">Meet And Greet</td>
+            <td headers="1">Meet And Greet L4</td>
             <td headers="2">Virtual meet and greet with Conan O'Brien himself or any of the staff members of Team Coco of your choice! Spending 2 hours with your favorites!</td>
             <td headers="3">After a year as a club member, this option will be open.</td>
           </tr>
 
           <tr>
-            <td headers="1">Event Tickets</td>
+            <td headers="1">Event Tickets L5</td>
             <td headers="2">Free tickets to every Conan event that club members can choose to accept or reject.</td>
             <td headers="3">3 year club member for ticket eligibality, and club member will recieve text and email to accept or reject their free tickets.</td>
           </tr>
@@ -112,29 +114,75 @@
       </table>
     </div>
   </section>
+
+
+  
+
+  <section class="container">
+    <h3>PICK YOUR PLAN!</h3>
+      <button class="w3-button w3-pale-green w3-border w3-border-dark-gray w3-round-large" 
+      title="Click to apply new theme">$20 /month L1 & L2</button>
+      <button class="w3-button w3-pale-yellow w3-border w3-border-dark-gray w3-round-large" 
+      title="Click to apply new theme">$45 /month L1, L2 & L3</button>
+      <button class="w3-button w3-pale-red w3-border w3-border-dark-gray w3-round-large" 
+      title="Click to apply new theme">$800 /year FULL ACCESS</button>
+  </section>
       
-      <br>
-      <hr>
 
+
+
+
+
+
+
+
+  <section>
       <form action="mailto:casianoa56@gmail.com" method="post">
-        <fieldset>
-            <legend>Personal Information</legend>
-            <h3>Join The Club!</h3>
-            <label>First Name: <input type="text" name="firstname" value="" placeholder="Coco"> </label>
-            <label>Last Name: <input type="text" name="lastname" value="" placeholder="O'Breezy"></label> 
-        <p>
-            <label>Your Email: <input type="text" name="email" value="" placeholder="Coco_O'Breezy@club.com"> </label>
-            <label>Address: <input type="text" name="address" value="" placeholder="123 Sesame St"></label>
-        </p>
-        <p>
-            <label>Enter City: <input type="text" name="city" value="" placeholder="New York"> </label>
-            <label>State: <input type="text" name="state" value="" placeholder="NY"></label>
-        </p>
-        <p>
-            <label>Zip Code: <input type="text" name="zip" value="" placeholder="10123"> </label>
-            <label>Country: <input type="text" name="country" value="" placeholder="United States"></label>
-        </p>
+        <fieldset class="w3-container w3-card-4 w3-light-grey w3-light-grey w3-margin">
+          <h3 class="w3-center">Join The Club!</h3>
 
+        <div class="w3-col" style="width:50px"> <i class="w3-xxlarge fa fa-user"></i></div>
+          <div class="w3-rest">
+            <label>First Name <input class="w3-input w3-round w3-animate-input" style="width:135px" type="text" name="firstname" value="" placeholder="Coco"> </label>
+          </div>
+
+          
+        <div class="w3-col" style="width:50px"> <i class="w3-xxlarge fa fa-user"></i></div>
+          <div class="w3-rest">
+            <label>Last Name <input class="w3-input w3-round w3-animate-input" style="width:135px" type="text" name="lastname" value="" placeholder="O'Breezy"></label> 
+          </div>
+
+
+
+
+        <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+          <div class="w3-rest">
+            <label>Email <input class="w3-input w3-round w3-animate-input" style="width:230px" type="text" name="email" value="" placeholder="Coco_O'Breezy@club.com"> </label>
+          </div>
+
+
+        <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+          <div class="w3-rest">
+            <label>Phone <input class="w3-input w3-round w3-animate-input" style="width:230px" type="text" name="phone" value="" placeholder="123 4568 1258"> </label>
+          </div>
+
+
+        <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-solid fa-location-arrow"></i></div>
+          <div class="w3-rest">
+            <label>Address <input class="w3-input w3-round w3-animate-input" style="width:135px" type="text" name="address" value="" placeholder="123 Sesame St"></label>
+          
+
+            <label>City <input class="w3-input w3-round w3-animate-input" style="width:135px" type="text" name="city" value="" placeholder="New York"> </label>
+            <label>State <input class="w3-input w3-round w3-animate-input" style="width:135px" type="text" name="state" value="" placeholder="NY"></label>
+  
+
+            <label>Zip Code <input class="w3-input w3-round w3-animate-input" style="width:135px" type="text" name="zip" value="" placeholder="10123"> </label>
+            <label>Country <input class="w3-input w3-round w3-animate-input" style="width:135px" type="text" name="country" value="" placeholder="United States"></label>
+          </div>
+
+
+
+          
            <h4>Choose Your Favorite Staff Member From Team Coco</h4>
         <p>
            <label title="Choose staff member"><input type="radio" name="options"> Conan O'Brien</label>
@@ -166,19 +214,21 @@
                <option value="AMERICAN EXPRESS">AMERICAN EXPRESS</option>
                <option value="Discover">Discover</option>
            </select>
-           <label>Expiration Date: <input type="text" name="exdate" value="" placeholder="05/26"></label>
-        <p>
-            <label>Card Number: <input type="text" name="cardNumber" value="" placeholder="1234 5678 9876 5432"></label>
-            <label>Security Code: <input type="text" name="securitycode" value="" placeholder="619"></label>
+          
+        <p>  
+           <label>Expiration Date <input class="w3-input w3-round w3-animate-input" style="width:135px" type="text" name="exdate" value="" placeholder="05/26"></label>
+            <label>Card Number <input class="w3-input w3-round w3-animate-input" style="width: 230px" type="text" name="cardNumber" value="" placeholder="1234 5678 9876 5432"></label>
+            <label>CVC <input class="w3-input w3-round w3-animate-input" style="width:135px" type="text" name="securitycode" value="" placeholder="619"></label>
         </p>
             <h4>Send Us A Message For Feedback!</h4>
             <textarea rows= "10" cols="60"></textarea>
         <p>   
-            <input type="submit" value="Submit">
-            <input type="reset" value="Clear">
+            <input class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding" style="width:135px" type="submit" value="Submit">
+            <input class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding" style="width:135px" type="reset" value="Clear">
         </p> 
         </fieldset>
       </form>
+  </section>
        
 
       <footer id="mainFooter">

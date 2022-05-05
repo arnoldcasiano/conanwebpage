@@ -21,27 +21,11 @@ body {
 
 /* Color theme changing buttons */
 #buttons {
-    display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	margin: 0 5em;
-}
-
-button {
-	width: 100%;
-	text-align: center;
-	background-color: var(--color1);
-	font-size: .8em;
-    border-radius: 5px;
-}
-button:hover {
-	width: 100%;
-	text-align: center;
-	background-color: var(--color2);
-	color: var(--color1);
-	font-size: .9em;
-    border-radius: 5px;
-}
+    float: right;
+    padding: 1px;
+    border: 30px;
+    margin: -40px 20px;
+} 
 
 /* Navigation Menu background color and text color for all pages */
 #mainNav {
@@ -106,7 +90,7 @@ button:hover {
 #main img {
     animation-name: coco;
 	animation-duration: 4s;
-	animation-iteration-count: 2;
+	animation-iteration-count: infinite;
 }
 
 /* Animation rule */
@@ -340,11 +324,39 @@ nav .menu {
 	}
 }
 
+
+/* TABLET */
+@media screen and (max-width: 65em) {
+    #buttons {
+        float: right;
+        padding: 1px;
+        border: 15px;
+        margin: -20px 20px;
+    }
+
+    #mainHeader {
+        font-size: 1em;
+    }
+
+    #mainNav {
+        background: var(--color2);
+    }
+    #mainNav a{
+        font-size: 1.2em;
+    }
+
+    #jumbo {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 40em) {
     /* Color themes */
     #buttons {
-        flex-wrap: wrap;
-        font-size: .8em;
+        float: right;
+        padding: 1px;
+        border: 15px;
+        margin: 0 20px;
     }
 
     /* ALL PAGES */
@@ -401,24 +413,6 @@ nav .menu {
         font-size: 1em;
     }
     
-}
-
-/* TABLET */
-@media screen and (max-width: 65em) {
-    #mainHeader {
-        font-size: 1em;
-    }
-
-    #mainNav {
-        background: var(--color2);
-    }
-    #mainNav a{
-        font-size: 1.2em;
-    }
-
-    #jumbo {
-        display: none;
-    }
 }
 
 
