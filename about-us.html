@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>About Us | Conando Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel=stylesheet href="./css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel=stylesheet href="./css/color-theme1.css">
+    <script src="./js/script.js" defer></script>
+
+<style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+    body, html {
+        height: 100%;
+        background-color: var(--color1);
+        color: var(--color2);
+        line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+    .bgimg-1 {
+        background-image: url("./images/me.JPG");
+        min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+    .bgimg-2 {
+        background-image: url("./images/hands.JPG");
+        min-height: 400px;
+}
+
+/* Third image (Contact) */
+    .bgimg-3 {
+        background-image: url("./images/flowers.JPG");
+        min-height: 400px;
+}
+
+    .w3-wide {letter-spacing: 10px;}
+    .w3-hover-opacity {cursor: pointer;}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div id="mainNav">
+      <div class="container">
+    <a href="index.html" class="w3-bar-item ">HOME</a>
+    <a href="faq.html" class="w3-bar-item w3-hide-small"> FAQ</a>
+    <a href="gallery.html" class="w3-bar-item w3-hide-small"> GALLERY</a>
+    <a href="contact-us.html" class="w3-bar-item w3-hide-small"> CONTACT</a>
+    <a href="about-us.html" class="w3-bar-item w3-hide-small"> ABOUT US</a>   
+    </div>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div class=" w3-hide w3-hide-large w3-hide-medium">
+    <a href="faq.html" class="w3-bar-item" onclick="toggleFunction()">FAQ</a>
+    <a href="gallery.html" class="w3-bar-item w3-button" onclick="toggleFunction()">GALLERY</a>
+    <a href="contact-us.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="about-us.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT US</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">BEHIND THE WEBSITE</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p>I am a 22 year old pursuing a career in Web Development. I am currently still in school to earn my Associates
+      in Software Development. I currently switched majors from Recording Engineering (which I have an Associates in)
+      to this current one. I decided to pursue Web Development because the idea of building web pages
+      from scratch and problem solving to get it working the way you want it intrigued me when looking 
+      for a new career path for myself. I still have a lot to learn but I'm determine to continue learning. 
+  </p>
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Arnold Casiano</b></p><br>
+      <img class="gallery" src="./images/me2.jpeg" alt="Photo of Me" width="250" height="320">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>This is my first website I've created for my Web Design class. I've learned a lot of 
+          the fundamentals of Web Design which I will list below. Overall I really enjoyed this course
+        because I really liked the approach. Project based learning in my opinion is the best way 
+    to learn web development.</p>
+    </div>
+  </div>
+
+  <h3 class="w3-center">PROGRAMS I USED</h3>
+
+<div id="programs">
+<div class="w3-row w3-center w3-padding-16">
+  <div class="w3-quarter w3-section">
+      <div class="container">
+        <img class="gallery" src="./images/html.png" height="100" width="100" alt="html"><br>
+            HTML5
+      </div>
+  </div>
+  <div class="w3-quarter w3-section">
+     <div class="container">
+        <img class="gallery" src="./images/css.png" height="100" width="100" alt="css"><br>
+    CSS3
+    </div>
+  </div>
+  <div class="w3-quarter w3-section">
+      <div class="container">
+    <img class="gallery" src="./images/java.png" height="100" width="100" alt="javascript"><br>
+    Javascript
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">EDUCATION</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+    <h3 class="w3-center">MY JOURNEY</h3>
+    <p class="w3-center"><em>Here are some of the fundamentals things ive learned 
+        taking this course<br> Click on the images for more details</em></p><br>
+  
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img src="./images/table.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="I learned how to create a table in HTML and style it with CSS">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="./images/form.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="I learned how create proper forms in HTML and style them in CSS">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="./images/float.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="i learned the about the Box Model and Floated elements">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="./images/grid.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="I learned to apply CSS Grid to layout my pages">
+      </div>
+    </div>
+  
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3">
+        <img src="./images/flex.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="I learned how to implement flex box">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="./images/res.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="I learned how to make my pages responsive using CSS">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="./images/color.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="I learned about color themes and schemes">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="./images/script.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Using javascript I was able to change my pages color themes with the click of a button">
+      </div>
+    </div>
+  </div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img src="./images/table.png" id="img01" class="w3-image" alt="image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WHERE I LIVE</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="./images/dallas.jpg" class="w3-image w3-round" style="width:100%" alt="dallas">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Texas, US<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: casianoa56@gmail.com<br>
+      </div>
+      <p>Let me know how I did!</p>
+      <form action="mailto:casianoa56@gmail.com" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer id="mainFooter">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <a href="https://www.youtube.com/"><div id="YouTube"></div></a>
+      <a href="https://www.instagram.com/?hl=en"><div id="Instagram"></div></a>
+      <a href="https://twitter.com/i/flow/login"><div id="Twitter"></div></a>
+      <a href="https://www.facebook.com/"><div id="Facebook"></div></a>
+    <p><a href="https://www.dallascollege.edu/pages/default.aspx" target="_blank">Dallas College</a></p>
+    <p><a href="mailto:casianoa56@gmail.com">Contact Us</a></p>
+    <p>Conando Club &copy;</p>
+    </div>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
